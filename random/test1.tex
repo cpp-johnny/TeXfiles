@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+
+\title{LaTeX tutorial v1}
+\author{Boi}
+\date{18 December 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Hello, this is the first document.
+
+
+This is my second paragraph. As you can see, there is an unwanted 2 fingers spacing, and there is no line between the 2 different paragraphs. \\*
+
+\noindent As you can see, this is much better. 
+\noindent This is how you do it. Before you end off the last paragraph, you can add a $\backslash \backslash *$. At the start of the new paragraph, you begin with  $\backslash$noindent. \\*\\*
+
+\section{Math Equations}
+this is an equation:    \\* \\*
+\noindent $y=mx+c$  \\* \\*
+Integral \(\int_{a}^{b} x^2 \,dx\) inside text \\* \\*
+\[ \int_{a}^{b} x^2 \,dx \]
+
+\newpage
+\section{sections}
+\subsection{subsection}
+
+\newpage
+\section{bullet point}
+\begin{itemize}
+    \item one
+    \item two
+    \item three
+\end{itemize}
+
+\newpage
+\section{text changes}
+\subsection{bold}
+ctrl b - 
+\textbf{yes}
+\subsection{itallics}
+ctrl i -
+\textit{yes}
+
+
+{\fontfamily{phv}\selectfont
+This text uses a different font typeface
+}
+
+\end{document}
